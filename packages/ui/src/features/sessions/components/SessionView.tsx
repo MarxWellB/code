@@ -399,7 +399,7 @@ export function SessionView({
           <Flex
             direction="column"
             height="100%"
-            className="relative bg-background"
+            className="relative min-h-0 overflow-hidden bg-background"
             onContextMenu={handleContextMenu}
           >
             <RawLogsView
@@ -411,7 +411,7 @@ export function SessionView({
           <Flex
             direction="column"
             height="100%"
-            className="relative bg-background"
+            className="relative min-h-0 overflow-hidden bg-background"
             onClick={handlePaneClick}
             onContextMenu={handleContextMenu}
             onDragEnter={handleDragEnter}

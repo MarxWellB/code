@@ -358,7 +358,7 @@ export function ConversationView({
       poolOptions={diffsPoolOptions}
       highlighterOptions={DIFFS_HIGHLIGHTER_OPTIONS}
     >
-      <div ref={containerRef} className="group/thread relative flex-1">
+      <div ref={containerRef} className="group/thread relative min-h-0 flex-1">
         <div
           id="fullscreen-portal"
           className="pointer-events-none absolute inset-0 z-20"
